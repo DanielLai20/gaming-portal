@@ -21,7 +21,14 @@ const CS2 = () => {
       </div>
 
       <div className="flex justify-center items-center h-full">
-      <main className="flex-grow justify-center items-center pb-8 text-white">
+      <main className="flex-grow pb-16" style={{ 
+        paddingInline: '21rem', 
+      textAlign: 'center', 
+      position: 'relative', 
+      backgroundImage: 'url(/images/CounterStrike2.jpg)',
+       backgroundSize: 'cover', 
+       backgroundPosition: 'center', 
+       backgroundRepeat: 'no-repeat' }}>
   <div className="flex justify-center items-center space-x-4">
     
     {/* Watch Section */}
