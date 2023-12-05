@@ -4,7 +4,6 @@ import Nav from '@/components/nav/nav';
 import Image from "next/image";
 import Link from 'next/link'
 import Logo from "../../public/logos/logo_full_transparent.png";
-import IGN from "../../public/logos/ign-logo-transparent.png";
 import Youtube from "../../public/images/youtube.png";
 import Twitch from "../../public/images/twitch.png";
 import Steam from "../../public/images/steam.png";
@@ -111,9 +110,7 @@ const CS2 = () => {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023 <a href="https://flowbite.com" className="hover:underline">
-              Gaming Portal™
-            </a>
+            © 2023 <a href="https://flowbite.com" className="hover:underline">Gaming Portal™</a>
             . All Rights Reserved.
           </span>
         </div>
