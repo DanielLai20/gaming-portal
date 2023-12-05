@@ -12,21 +12,21 @@ const MeetTheTeamPage: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="max-w-screen text-white p-6 text-center bg-slate-900">
-        <div className="max-w-screen-xl m-auto">
+        <div className=" m-auto">
           <Nav></Nav>
           <h1>Welcome to the Team Page</h1>
           <p>This is the Team page content.</p>
         </div>
       </div>
-
-      <main className="flex-grow pb-16 text-black" style={{ textAlign:"center" }}>
+      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <main className="flex-grow pb-16 text-black bg-slate-900" style={{ textAlign:"center" }}>
       <div className="row">
         {/* Member 1 */}
-        <div className="column" id="gfg">
+        <div className="flex flex-col items-center mt-10 text-center"id="gfg">
           <div className="card">
             <i className="fa fa-user-circle" style={{ fontSize: '68px' }}></i>
             <div className="container">
-              <h2>Kevin Estrella</h2>
+              <h2 style={{color:"white"}}>Kevin Estrella</h2>
               <Image style={{justifyContent: 'center' , display: "flex"}}
         className='rounded-lg'
         src={kev}
@@ -34,19 +34,17 @@ const MeetTheTeamPage: React.FC = () => {
         width={200}
         height={200}
       />
-              <p>Project Manager</p>
-              <p>Feel your customer make them happy</p>
-              <button className="button">View</button>
+               <p style={{color:"white"}}>Project Manager</p>
             </div>
           </div>
         </div>
 
         {/* Member 2 */}
-        <div className="column">
+        <div className="flex flex-col items-center mt-10 text-center">
           <div className="card">
             <i className="fa fa-user-circle" style={{ fontSize: '68px' }}></i>
             <div className="container">
-              <h2>Daniel Lai</h2>
+            <h2 style={{color:"white"}}>Daniel Lai</h2>
               <Image style={{justifyContent: 'center' , display: "flex"}}
         className='rounded-lg'
         src={dan}
@@ -54,19 +52,18 @@ const MeetTheTeamPage: React.FC = () => {
         width={200}
         height={200}
       />
-              <p>Scrum Master</p>
-              <p>A website should be user-friendly and attractive</p>
-              <button className="button">View</button>
+               <p style={{color:"white"}}>Scrum Master</p>
+
             </div>
           </div>
         </div>
 
         {/* Member 3 */}
-        <div className="column">
+        <div className="flex flex-col items-center mt-10 text-center">
           <div className="card">
             <i className="fa fa-user-circle" style={{ fontSize: '68px' }}></i>
             <div className="container">
-              <h2>Damariel Causey</h2>
+            <h2 style={{color:"white"}}>Damariel Causey</h2>
               <Image style={{justifyContent: 'center' , display: "flex"}}
         className='rounded-lg'
         src={dem}
@@ -74,19 +71,17 @@ const MeetTheTeamPage: React.FC = () => {
         width={200}
         height={200}
       />
-              <p>Developer I​</p>
-              <p>Content should be popular and trending</p>
-              <button className="button">View</button>
+               <p style={{color:"white"}}>Developer I​</p>
             </div>
           </div>
         </div>
 
         {/* Member 4 */}
-        <div className="column">
+        <div className="flex flex-col items-center mt-10 text-center">
           <div className="card">
             <i className="fa fa-user-circle" style={{ fontSize: '68px' }}></i>
             <div className="container">
-              <h2>Marco Wehrhanhn​</h2>
+            <h2 style={{color:"white"}}>Marco Wehrhanhn​</h2>
               <Image style={{justifyContent: 'center' , display: "flex"}}
         className='rounded-lg'
         src={mar}
@@ -94,9 +89,8 @@ const MeetTheTeamPage: React.FC = () => {
         width={200}
         height={200}
       />
-              <p>Developer I​I</p>
-              <p>Sell the product like Greatest Mary Kay Ash</p>
-              <button className="button">View</button>
+              <p style={{color:"white"}}>Developer I​I</p>
+
             </div>
           </div>
         </div>
@@ -104,7 +98,7 @@ const MeetTheTeamPage: React.FC = () => {
       </main>
 
       <footer className="bg-slate-900 rounded-lg shadow dark:bg-gray-900">
-        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div className="w-full mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <Image
               src={Logo}
