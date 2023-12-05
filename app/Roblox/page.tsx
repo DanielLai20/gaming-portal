@@ -19,7 +19,15 @@ const Roblox = () => {
       </div>
 
       <div className="flex justify-center items-center h-full">
-      <main className="flex-grow pb-16" style={{ paddingInline: '21rem' }}>
+      <main className="flex-grow pb-16" style={{ 
+        paddingInline: '21rem',
+        textAlign: 'center',
+        position: 'relative',
+        backgroundImage: 'url(/images/robloxplay.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat' }}>
+          
   <div className="flex space-x-4">
     <div className="flex flex-col items-center">
       <h3>Live Streams</h3>

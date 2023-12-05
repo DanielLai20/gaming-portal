@@ -15,9 +15,13 @@ const Mission = () => {
         </div>
       </div>
 
-      <main className="flex-grow pb-16">
-        <div>
-          <h1>Content Here</h1>
+      <main className="flex-grow pb-16 " >
+        <div style={{textAlign:"center"} }>
+          <h1 style={{color:"black"} }>At Game Portal, our mission is to bring transparency and insight into the world of gaming by curating and showcasing the most popular games alongside an immersive
+             exploration into their creation process. We strive to provide a platform that educates, entertains, and inspires both gaming enthusiasts and aspiring game developers, 
+             offering a comprehensive glimpse into the artistry, technology, and creativity that drives the gaming industry forward. Through detailed breakdowns and behind-the-scenes content, 
+             we aim to foster a deeper understanding and appreciation for the craft of game development while empowering our users to discover, analyze, and celebrate the innovative experiences 
+             shaping the gaming landscape.</h1>
          
         </div>
       </main>
