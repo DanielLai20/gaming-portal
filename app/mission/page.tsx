@@ -14,7 +14,7 @@ const Mission = () => {
           <p>This is the Mission page content.</p>
         </div>
       </div>
-
+      {/* Mission Statement */}
       <main className="flex-grow pb-16 " >
         <div style={{textAlign:"center"} }>
           <h1 style={{color:"black"} }>At Game Portal, our mission is to bring transparency and insight into the world of gaming by curating and showcasing the most popular games alongside an immersive
