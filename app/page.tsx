@@ -70,17 +70,14 @@ export default function Home() {
               . All Rights Reserved.
             </span>
           </div>
-<<<<<<< HEAD
-        </footer>
-      </div>
-=======
+          {/* Additional horizontal line */}
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          {/* Duplicate copyright information */}
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023 <a href="https://flowbite.com" className="hover:underline">Gaming Portal™</a>. All Rights Reserved.
           </span>
-        </div>
-      </footer>
-    </div>
->>>>>>> e6db4dc8f9eb9e473920b1161b99e4c2b7f0f286
+        </footer>
+      </div>
+
   )
 }
