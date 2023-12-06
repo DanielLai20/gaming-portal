@@ -18,7 +18,7 @@ const Cyberpunk = () => {
           <p>This is the Cyberpunk page content.</p>
         </div>
       </div>
-
+      {/* Live streams Section */}
       <div className="flex justify-center items-center h-full">
       <main className="flex-grow pb-16" style={{ paddingInline: '21rem' }}>
   <div className="flex space-x-4">
