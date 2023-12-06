@@ -34,7 +34,7 @@ const Cyberpunk = () => {
         />
       </Link>
     </div>
-
+    {/* Reviews Section */}
     <div className="flex flex-col items-center">
       <h3>Reviews</h3>
       <Link href="https://www.ign.com/games/cyberpunk-2077" target="_blank" rel="noopener noreferrer">
@@ -47,7 +47,7 @@ const Cyberpunk = () => {
         />
       </Link>
     </div>
-
+    {/* Code Section */}
     <div className="flex flex-col items-center"><p>Learn How to Develop in C++</p>
       <Link href="https://www.youtube.com/watch?v=g7yv5VOsM5A" target="_blank" rel="noopener noreferrer">
         <Image
