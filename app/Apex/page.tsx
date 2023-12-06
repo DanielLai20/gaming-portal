@@ -7,7 +7,6 @@ import Logo from "../../public/logos/logo_full_transparent.png";
 import Youtube from "../../public/logos/youtube-logo-png-2074.png";
 import IGN from "../../public/logos/ign-logo-transparent.png";
 import apex from"../../public/images/Apex.jpg";
-import apexback from "../../public/images/Apexmap.jpg"
 
 const Apex = () => {
   return (
@@ -152,10 +151,7 @@ textDecoration:"underline" }}>Live Streams</h1>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023 <a href="https://flowbite.com" className="hover:underline">
-              Gaming Portal™
-            </a>
-            . All Rights Reserved.
+            © 2023 <a href="https://flowbite.com" className="hover:underline">Gaming Portal™</a>. All Rights Reserved.
           </span>
         </div>
       </footer>

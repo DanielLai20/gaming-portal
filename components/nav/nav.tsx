@@ -1,13 +1,11 @@
 import Logo from "../../public/logos/logo_full_transparent.png";
-import {useRouter} from "next/navigation";
 import Image from "next/image"
 import Link from 'next/link'
 const Nav = () => {
-  const router = useRouter();
 
   return (
     <div className="flex justify-between items-center gap-4 z-20 relative bg-transparent">
-      <div className="flex justify-center items-center gap-2">
+      <div className="flex justify-center items-center">
       <Link href="/">
         <Image
           src={Logo}

@@ -5,21 +5,27 @@ import Image from "next/image";
 import Link from 'next/link'
 import Logo from "../../public/logos/logo_full_transparent.png";
 import Youtube from "../../public/images/youtube.png";
-import Twitch from "../../public/logos/twitch.png";
+import Twitch from "../../public/images/twitch.png";
 import Steam from "../../public/images/steam.png";
 
 // CS2 component
 const CS2 = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-700">
+    <div className="flex flex-col bg-slate-700">
       <div className="max-w-screen text-white p-6 text-center bg-slate-900">
         <div className="m-auto">
           <Nav></Nav>
+<<<<<<< HEAD
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+=======
+          <h1 className="mt-10 mb-10">Welcome to the Counter Strike 2 Page</h1>
+
+>>>>>>> e6db4dc8f9eb9e473920b1161b99e4c2b7f0f286
         </div>
       </div>
 
       <div className="flex justify-center items-center h-full">
+<<<<<<< HEAD
         <main className="flex-grow pb-16" style={{ 
           paddingInline: '21rem', 
           textAlign: 'center', 
@@ -60,6 +66,59 @@ const CS2 = () => {
               </Link>
             </div>
           </div>
+=======
+      <main className="flex-grow pb-16" style={{ 
+        paddingInline: '21rem', 
+      textAlign: 'center', 
+      position: 'relative', 
+      backgroundImage: 'url(/images/CounterStrike2.jpg)',
+       backgroundSize: 'cover', 
+       backgroundPosition: 'center', 
+       backgroundRepeat: 'no-repeat' }}>
+  <div className="flex justify-center items-center space-x-4">
+    
+    {/* Watch Section */}
+    <div className="flex flex-col items-center mt-10 text-center">
+      <h1>Watch</h1>
+      <Link href="https://www.twitch.tv/directory/category/counter-strike" target="_blank" rel="noopener noreferrer">
+          <Image
+            className='rounded-lg mt-10'
+            src={Twitch}
+            alt=""
+            width={250}
+            height={250}
+          />
+      </Link>
+    </div>
+
+    {/* Play Section */}
+    <div className="flex flex-col items-center mt-10 text-center">
+      <h1>Play</h1>
+      <Link href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank" rel="noopener noreferrer">
+          <Image
+            className='rounded-lg mt-10'
+            src={Steam}
+            alt=""
+            width={250}
+            height={250}
+          />
+      </Link>
+    </div>
+
+    {/* Code Section */}
+    <div className="flex flex-col items-center mt-10 text-center">
+      <h1>Code</h1>
+      <Link href="https://www.youtube.com/watch?v=g7yv5VOsM5A" target="_blank" rel="noopener noreferrer">
+          <Image
+            className='rounded-lg mt-10'
+            src={Youtube}
+            alt=""
+            width={250}
+            height={250}
+          />
+      </Link>
+    </div>
+>>>>>>> e6db4dc8f9eb9e473920b1161b99e4c2b7f0f286
 
           {/* Code Section */}
           <div className="code-section" style={{padding: "5rem"}}>
@@ -79,9 +138,18 @@ const CS2 = () => {
         </main>
       </div>
 
+<<<<<<< HEAD
       {/* Footer section */}
       <footer className="bg-slate-900 rounded-lg shadow dark:bg-gray-900">
       <div className="w-full mx-auto p-4 md:py-8">
+=======
+</div>
+
+
+
+      <footer className="bg-slate-900 rounded-lg shadow dark:bg-gray-900">
+        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+>>>>>>> e6db4dc8f9eb9e473920b1161b99e4c2b7f0f286
           <div className="sm:flex sm:items-center sm:justify-between">
             {/* Logo */}
             <Image
@@ -114,10 +182,7 @@ const CS2 = () => {
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           {/* Copyright information */}
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023 <a href="https://flowbite.com" className="hover:underline">
-              Gaming Portal™
-            </a>
-            . All Rights Reserved.
+            © 2023 <a href="https://flowbite.com" className="hover:underline">Gaming Portal™</a>. All Rights Reserved.
           </span>
         </div>
       </footer>
